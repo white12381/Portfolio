@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/index.html"],
+  content: ["./public/html/index.html"],
   theme: {
     extend: {
       colors: {
@@ -10,8 +10,8 @@ module.exports = {
         'hire-btn': '#b8d4ea'
       },
        backgroundImage: {
-        'weeve': "url('WEEVE LOGO 6 ADJ 1.png')",
-        'autoproctor': "url('autoproctor.svg')"
+        'weeve': "url('../images/WEEVE LOGO 6 ADJ 1.png')",
+        'autoproctor': "url('../images/autoproctor.svg')"
        }
     },
   },
