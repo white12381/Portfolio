@@ -11,3 +11,9 @@
 .projectTechnology{
     @apply bg-gray-600 text-sm p-2 font-bold text-white rounded-3xl
 }
+.ProjectButtonActive{
+    @apply border p-2 px-3 cursor-pointer rounded-md bg-profile text-white
+}
+.ProjectNotButtonActive{
+    @apply p-2 px-3 cursor-pointer hover:rounded-md hover:border  hover:bg-gray-800/40 text-gray-600
+}

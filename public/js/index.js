@@ -1,13 +1,19 @@
-    document.addEventListener( 'DOMContentLoaded', function () {
-        new Splide( '.splide',{
-            start: 1,
-            perPage: 1,
-            drag: 'free',
-            rewind: true,
-            type:'loop',
-            rewindByDrag: true, 
-        } ).mount();
-    } );
+const about = document.querySelector('#about');
+const projects = document.querySelector('#projects');
+const talks = document.querySelector('#talks');
+const blog = document.querySelector('#blog');
+const resume = document.querySelector('#resume');
+const contact = document.querySelector('#contact');
+const pages = document.querySelector('#pages');
+
+document.addEventListener('DOMContentLoaded', () => {
+    if(location.pathname === '/public/html/index.html'){
+     about.classList.add('text-white');
+    }
+    if(location.pathname === '/public/html/project.html'){
+        projects.classList.add('text-white');
+       }    
+})
 
 const weeveProject = document.querySelector("#weeveProject");
 weeveProject.addEventListener('mouseenter', () => {
@@ -52,5 +58,56 @@ hamberg.addEventListener('click', () => {
         menu.classList.add('hidden');
     }
 }) 
+const ReactJs = document.querySelectorAll('#ReactJs');
+const VanillaJs = document.querySelectorAll('#VanillaJs');
 
+const Vanillas = document.querySelector('#Vanillas');
+const React = document.querySelector('#React');
+const All = document.querySelector('#All');
 
+Vanillas.addEventListener('click', () => {
+    ReactJs.forEach((react) => {
+        react.classList.add('hidden')
+    });
+    VanillaJs.forEach( (vanilla) => {
+        vanilla.classList.remove('hidden');
+    });
+    Vanillas.classList.add('ProjectButtonActive');
+    Vanillas.classList.remove('ProjectNotButtonActive');
+    All.classList.remove('ProjectButtonActive');
+    All.classList.add('ProjectNotButtonActive');
+    React.classList.remove('ProjectButtonActive');
+    React.classList.add('ProjectNotButtonActive');
+});
+
+React.addEventListener( 'click', () => {
+    ReactJs.forEach((react) => {
+        react.classList.remove('hidden')
+    });
+    VanillaJs.forEach( (vanilla) => {
+        vanilla.classList.add('hidden');
+    }); 
+
+    React.classList.add('ProjectButtonActive');
+    React.classList.remove('ProjectNotButtonActive');
+    All.classList.remove('ProjectButtonActive');
+    All.classList.add('ProjectNotButtonActive');
+    Vanillas.classList.remove('ProjectButtonActive');
+    Vanillas.classList.add('ProjectNotButtonActive');
+})
+
+All.addEventListener( 'click', () => {
+    ReactJs.forEach((react) => {
+        react.classList.remove('hidden')
+    });
+    VanillaJs.forEach( (vanilla) => {
+        vanilla.classList.remove('hidden');
+    });
+
+    React.classList.add('ProjectNotButtonActive');
+    React.classList.remove('ProjectButtonActive');
+    All.classList.remove('ProjectNotButtonActive');
+    All.classList.add('ProjectButtonActive');
+    Vanillas.classList.remove('ProjectButtonActive');
+    Vanillas.classList.add('ProjectNotButtonActive');
+})
