@@ -1,10 +1,7 @@
 const about = document.querySelector('#about');
-const projects = document.querySelector('#projects');
-const talks = document.querySelector('#talks');
-const blog = document.querySelector('#blog');
+const projects = document.querySelector('#projects'); 
 const resume = document.querySelector('#resume');
-const contact = document.querySelector('#contact');
-const pages = document.querySelector('#pages');
+const contact = document.querySelector('#contact'); 
 
 document.addEventListener('DOMContentLoaded', () => {
     if(location.pathname === '/public/html/index.html'){
@@ -12,7 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if(location.pathname === '/public/html/project.html'){
         projects.classList.add('text-white');
-       }    
+       }
+       if(location.pathname === '/public/html/resume.html'){
+        resume.classList.add('text-white');
+       }   
+       LoadPdfFromUrl('../Images/Resume.pdf');
+ 
 })
 
 const weeveProject = document.querySelector("#weeveProject");
@@ -111,3 +113,4 @@ All.addEventListener( 'click', () => {
     Vanillas.classList.remove('ProjectButtonActive');
     Vanillas.classList.add('ProjectNotButtonActive');
 })
+

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olasunkanmi Usman</title>
-    <link rel="stylesheet" href="../Css/output.css"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/output.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf_viewer.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body class="bg-body-bg">
+<body>
     <div class="bg-nav-header lg:flex lg:flex-row justify-between py-6">
         <div class="flex flex-row space-x-8 ml-9 items-center">
     <div>
@@ -72,81 +73,25 @@
             <div class="navlinksUnderline">
              <a href="#" id="contact">   CONTACT </a>
             </div> 
+        </div>    
+    </div>
+    <div class="bg-profile  py-10 text-white h-48 text-center flex flex-col space-y-10 md:text-left px-10 lg:px-28">
+        <div class="flex justify-between">
+        <div class="text-3xl font-bold lg:ml-28">Resume</div>
+        <div class="lg:mr-28">
+         <button class="bg-nav-header  rounded-3xl p-2 text-md font-bold hover:bg-blue-900"> 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline stroke-white stroke-2 fill-white w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+              </svg>
+              
+            Download PDF Version </button>
         </div>
-        
-    </div>
-    <div class="bg-profile pt-10 md:pt-12  text-white h-48 text-center  md:text-left px-10 lg:px-28">
-        <h1 class="text-3xl font-bold">Projects</h1>
-        <p class="my-4 text-lg">In-depth Case Studies to show you 
-            what I can offer and how I work
-        </p>
-    </div>
-
-    <div class="flex justify-center my-10 space-x-4">
-        <div id="All" class="ProjectButtonActive">
-            All
         </div>
-        <div id="React" class="ProjectNotButtonActive">
-            React
-        </div> 
-        <div id="Vanillas" class="ProjectNotButtonActive">
-            Vanilla
-        </div> 
-        
     </div>
-
-    <div class="flex  flex-col gap-x-4 space-y-12 lg:space-y-0 lg:flex-row lg:grid-cols-2 mx-3 md:mx-6 lg:mx-28 justify-center">
-        <div class="bg-white lg:w-1/2" id="VanillaJs"> 
-    <div id="weeveProject" class=" bg-weeve projectCover">
-         </div>
-         <div class="flex flex-col space-y-2 my-4">
-            <div class="text-center font-extrabold text-gray-600">
-                <a href="https://weeve.com.ng" target="_blank" class="hover:underline decoration-2">Webapp Development</a>
+            <div>
+            <div id="pdf_container" class="mx-auto w-1/2"></div>
             </div>
-    <div class="flex justify-center space-x-6">
-        <div class="projectTechnology">
-            Bootstrap
-        </div>
-        <div class="projectTechnology">
-            Javascript
-        </div>
-        <div class="projectTechnology">
-            HTML5
-        </div>
-        <div class="projectTechnology">
-            CSS
-        </div>
-    </div>
-
-    </div>
-        </div>
-
-        <div class="bg-white lg:w-1/2" id="ReactJs"> 
-            <div id="autoproctorProject" class=" bg-autoproctor projectCover">
-                 </div>
-                 <div class="flex flex-col space-y-2 my-4">
-                    <div class="text-center font-extrabold text-gray-600">
-                        <a href="https://socratease-autoproctor.onrender.com" target="_blank" class="hover:underline decoration-2">Webapp Development</a>
-                    </div>
-            <div class="flex justify-center space-x-6">
-                <div class="projectTechnology">
-                    React js
-                </div>
-                <div class="projectTechnology">
-                    Bootstrap
-                </div>
-                <div class="projectTechnology">
-                    HTML5
-                </div>
-                <div class="projectTechnology">
-                    CSS
-                </div>
-            </div>
-        
-            </div>
-                </div>
-    </div>
-    <div class="bg-profile py-16 text-white text-center space-y-3 flex flex-col w-full  mt-12">
+    <div class="bg-profile py-16 text-white text-center space-y-3 flex flex-col w-full">
         <div>
             <img src="../images/design1.PNG" class="w-24 h-24 m-auto">
         </div>
@@ -162,5 +107,8 @@
         </div>
     </div>
 <script src="../js/index.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+<script type="text/javascript" src="../js/pdf.js"> </script>
+ 
 </body>
 </html>
