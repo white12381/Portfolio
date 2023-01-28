@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../Css/output.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf_viewer.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body class="bg-body-bg">
     <div class="bg-nav-header lg:flex lg:flex-row justify-between py-6">
         <div class="flex flex-row space-x-8 ml-9 items-center">
     <div>
@@ -61,40 +61,45 @@
         </div>
         <div class="hidden lg:flex flex-col font-bold lg:flex-row space-y-5 lg:space-y-0 mt-10 ml-5 lg:ml-0 lg:mt-0 lg:space-x-10 lg:items-center lg:mr-10 text-gray-300" id="menu">
             <div class="navlinksUnderline">
-               <a href="../index.html" id="about"> ABOUT </a>
+               <a href="index.html" id="about"> ABOUT </a>
             </div>
             <div class="navlinksUnderline">
-             <a href="./project.html" id="projects">  PROJECTS </a>
+             <a href="project.html" id="projects">  PROJECTS </a>
             </div>
              
             <div class="navlinksUnderline">
-            <a href="./resume.html" id="resume">    RESUME </a>
+            <a href="resume.html" id="resume">    RESUME </a>
             </div>
             <div class="navlinksUnderline">
-             <a href="#" id="contact">   CONTACT </a>
+             <a href="contact.html" id="contact">   CONTACT </a>
             </div> 
         </div>    
     </div>
-    <div class="bg-profile  py-10 text-white h-48 text-center flex flex-col space-y-10 md:text-left px-10 lg:px-28">
-        <div class="flex justify-between">
+    <div class="bg-profile  py-10 text-white h-72 md:h-48 text-center flex flex-col space-y-10 md:text-left px-10 lg:px-28">
+        <div class="flex justify-between space-y-5 md:space-y-0 flex-col md:flex-row">
         <div class="text-3xl font-bold lg:ml-28">Resume</div>
         <div class="lg:mr-28">
-         <button class="bg-nav-header  rounded-3xl p-2 text-md font-bold hover:bg-blue-900"> 
+         <a href="../Images/Resume.pdf" download="Usman Olasunkanmi.pdf" class="bg-nav-header  rounded-3xl p-2 text-md font-bold hover:bg-blue-900"> 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline stroke-white stroke-2 fill-white w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
               </svg>
               
-            Download PDF Version </button>
+            Download PDF Version </a>
         </div>
         </div>
     </div>
-            <div>
-            <div id="pdf_container" class="mx-auto w-1/2"></div>
+            <div class="-mt-24 mx-auto hidden md:block">
+            <div id="pdf_container" class="lg:mx-auto md:w-1/2 w-1/3"></div>
+            </div>
+
+            <div class="-mt-24 mx-auto block md:hidden">
+                <iframe loading="lazy" class="overflow-hidden h-96 mx-auto" style="width:100%;" src="../images/Resume.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0" type="application/pdf">
+                </iframe>
             </div>
     <div class="bg-profile py-16 text-white text-center space-y-3 flex flex-col w-full">
-        <div>
-            <img src="../images/design1.PNG" class="w-24 h-24 m-auto">
-        </div>
+        <div class="bg-gray-600/50 w-32 mx-auto rounded-[50%] pt-3 mb-5">
+            <img src="../Images/design1.PNG" alt="profile picture" class="mx-auto w-24">
+            </div>
         <div class="text-2xl font-bold">
             Interested in hiring me for your project?
         </div>
@@ -103,7 +108,7 @@
            <a target="_blank" href="mailto:olasunkanmiusman1111@gmail.com" class="text-blue-600"> olasunkanmiusman1111@gmail.com </a> or use the form on the contact page.
         </div>
         <div>
-          <button  class="bg-blue-700/40 p-2 font-black hover:bg-blue-900 mt-4 rounded-2xl h-12 ">Let's Talk </button>
+            <a href="contact.html" class="bg-blue-700/40 p-2 font-black hover:bg-blue-900 mt-4 rounded-2xl h-12 ">Let's Talk </a>
         </div>
     </div>
 <script src="../js/index.js"></script>
