@@ -4,18 +4,19 @@ const resume = document.querySelector('#resume');
 const contact = document.querySelector('#contact'); 
 
 document.addEventListener('DOMContentLoaded', () => {
-    if(location.pathname === '/public/index.html'){
-     about.classList.add('text-white');
-    }
-    if(location.pathname === '/public/Html/project.html'){
+    
+    if(location.pathname === '/Html/project.html'){
         projects.classList.add('text-white');
        }
-       if(location.pathname === '/public/Html/resume.html'){
+      else if(location.pathname === '/Html/resume.html'){
         resume.classList.add('text-white');
        }   
-       if(location.pathname === '/public/Html/contact.html'){
+      else if(location.pathname === '/Html/contact.html'){
         contact.classList.add('text-white');
-       }    
+       } 
+       else{
+     about.classList.add('text-white');
+    }   
  
 })
 
