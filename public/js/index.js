@@ -5,13 +5,13 @@ const contact = document.querySelector('#contact');
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    if(location.pathname === '/Html/project.html'){
+    if(location.pathname === '/project.html'){
         projects.classList.add('text-white');
        }
-      else if(location.pathname === '/Html/resume.html'){
+      else if(location.pathname === '/resume.html'){
         resume.classList.add('text-white');
        }   
-      else if(location.pathname === '/Html/contact.html'){
+      else if(location.pathname === '/contact.html'){
         contact.classList.add('text-white');
        } 
        else{
@@ -40,6 +40,24 @@ function sendMail(){
 const name = document.getElementById('name').value.trim();
 const email = document.getElementById('email').value.trim();
 const message = document.getElementById('message').value.trim();
+if(!name){
+    document.getElementById('name').classList.add('border-red-900') 
+}
+else{
+    document.getElementById('name').classList.remove('border-red-900') 
+}
+if(!email || !(email.includes('@')) || !(email.includes('.com'))){
+    document.getElementById('email').classList.add('border-red-900')
+}
+else{
+    document.getElementById('email').classList.remove('border-red-900') 
+}
+if(!message){
+    document.getElementById('message').classList.add('border-red-900')
+}
+else{
+    document.getElementById('message').classList.remove('border-red-900') 
+}
     if(name && email && message){
         var link = "mailto:olasunkanmiusman1111@gmail.com"
     + "&subject=" + encodeURIComponent(`Job Offer from ${name}`)
