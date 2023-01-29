@@ -5,13 +5,13 @@ const contact = document.querySelector('#contact');
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    if(location.pathname == '/project.html'){
+    if(location.pathname === '/project.html'){
         projects.classList.add('text-white');
        }
-      else if(location.pathname == '/resume.html'){
+      else if(location.pathname === '/resume.html'){
         resume.classList.add('text-white');
        }   
-      else if(location.pathname == '/contact.html'){
+      else if(location.pathname === '/contact.html'){
         contact.classList.add('text-white');
        } 
        else{
@@ -60,7 +60,7 @@ else{
 }
     if(name && email && message){
         var link = "mailto:olasunkanmiusman1111@gmail.com"
-    + "&subject=" + encodeURIComponent(`Job Offer from ${name}`)
+    + "?subject=" + encodeURIComponent(`Job Offer from ${name}`)
     + "&body=" + encodeURIComponent(document.getElementById('message').value)
 ;
 
