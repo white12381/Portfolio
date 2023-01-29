@@ -11,11 +11,10 @@ module.exports = {
         'hire-btn': '#b8d4ea'
       },
        backgroundImage: {
-        'weeve': "url('../images/WEEVE LOGO 6 ADJ 1.png')",
-        'autoproctor': "url('../images/autoproctor.svg')"
+        'weeve': "url('../Images/WEEVE LOGO 6 ADJ 1.png')",
+        'autoproctor': "url('../Images/autoproctor.svg')"
        }
-    },
-  },
+    },  },
   plugins: [
     require('tailwind-animatecss')
   ],
