@@ -49,6 +49,6 @@ function RenderPage(pdf_container, num) {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-       LoadPdfFromUrl('../Images/Resume.pdf');
+       LoadPdfFromUrl('Images/Resume.pdf');
  
 })
