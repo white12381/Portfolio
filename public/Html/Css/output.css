@@ -601,6 +601,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -609,11 +614,6 @@ video {
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
 }
 
 .my-1 {
@@ -685,8 +685,8 @@ video {
   margin-left: 0.25rem;
 }
 
-.mt-\[550px\] {
-  margin-top: 550px;
+.mt-\[360px\] {
+  margin-top: 360px;
 }
 
 .-mt-24 {
@@ -695,46 +695,6 @@ video {
 
 .-mt-32 {
   margin-top: -8rem;
-}
-
-.mt-\[0px\] {
-  margin-top: 0px;
-}
-
-.mt-96 {
-  margin-top: 24rem;
-}
-
-.mt-\[3500px\] {
-  margin-top: 3500px;
-}
-
-.mt-\[350px\] {
-  margin-top: 350px;
-}
-
-.mt-\[250px\] {
-  margin-top: 250px;
-}
-
-.mt-\[300px\] {
-  margin-top: 300px;
-}
-
-.mt-\[30px\] {
-  margin-top: 30px;
-}
-
-.mt-\[330px\] {
-  margin-top: 330px;
-}
-
-.mt-\[360px\] {
-  margin-top: 360px;
-}
-
-.mt-\[370px\] {
-  margin-top: 370px;
 }
 
 .block {
@@ -1065,6 +1025,10 @@ video {
 
 .bg-autoproctor {
   background-image: url('../Images/autoproctor.svg');
+}
+
+.bg-vturecharge {
+  background-image: url('../Images/Vturecharge.png');
 }
 
 .fill-white {
@@ -1411,24 +1375,6 @@ video {
   text-decoration-line: underline;
 }
 
-@media (max-width: 280px) {
-  .max-\[280px\]\:mt-\[370px\] {
-    margin-top: 370px;
-  }
-}
-
-@media (min-width: 280px) {
-  .min-\[280px\]\:mt-\[370px\] {
-    margin-top: 370px;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:mt-\[300px\] {
-    margin-top: 300px;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:left-96 {
     left: 24rem;
@@ -1457,28 +1403,8 @@ video {
     margin-top: 0px;
   }
 
-  .md\:mt-56 {
-    margin-top: 14rem;
-  }
-
-  .md\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .md\:mt-48 {
-    margin-top: 12rem;
-  }
-
-  .md\:mt-3 {
-    margin-top: 0.75rem;
-  }
-
   .md\:mt-32 {
     margin-top: 8rem;
-  }
-
-  .md\:mt-\[300px\] {
-    margin-top: 300px;
   }
 
   .md\:block {

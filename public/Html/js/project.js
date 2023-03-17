@@ -83,3 +83,18 @@ autoproctorProject.addEventListener('mouseenter', () => {
 autoproctorProject.addEventListener('mouseleave', () => {
     autoproctorProject.innerHTML = ``;
 })
+
+const vturecharge = document.querySelector('#vturechargeProject');
+
+vturecharge.addEventListener('mouseenter', () => {
+    vturecharge.innerHTML =  `<div>
+        <h1 class="texl-2xl my-1 animatecss animatecss-fast animatecss-backInUp">Client: VtuRecharge</h1>
+        <p class="animatecss animatecss-fast animatecss-backInUp">
+        This is a Vtu platform where clients can purchase data, airtime and utillity payments such as gotv, dstv and others
+        </p> 
+    
+        </div>`;
+});
+vturecharge.addEventListener('mouseleave', () => {
+    vturecharge.innerHTML = ``;
+})
