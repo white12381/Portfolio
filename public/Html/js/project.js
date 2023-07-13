@@ -1,14 +1,20 @@
 const ReactJs = document.querySelectorAll('#ReactJs');
 const VanillaJs = document.querySelectorAll('#VanillaJs');
+const BotJs = document.querySelectorAll('#BotJs');
 
 const Vanillas = document.querySelector('#Vanillas');
 const React = document.querySelector('#React');
+const Bot = document.querySelector('#Bot');
 const All = document.querySelector('#All');
 
 Vanillas.addEventListener('click', () => {
     ReactJs.forEach((react) => {
         react.classList.add('hidden')
     });
+    BotJs.forEach((bot) => {
+        bot.classList.add('hidden')
+    });
+
     VanillaJs.forEach( (vanilla) => {
         vanilla.classList.remove('hidden');
     });
@@ -18,6 +24,8 @@ Vanillas.addEventListener('click', () => {
     All.classList.add('ProjectNotButtonActive');
     React.classList.remove('ProjectButtonActive');
     React.classList.add('ProjectNotButtonActive');
+    Bot.classList.remove('ProjectButtonActive');
+    Bot.classList.add('ProjectNotButtonActive');
 });
 
 React.addEventListener( 'click', () => {
@@ -27,6 +35,9 @@ React.addEventListener( 'click', () => {
     VanillaJs.forEach( (vanilla) => {
         vanilla.classList.add('hidden');
     }); 
+    BotJs.forEach( (bot) => {
+        bot.classList.add('hidden');
+    });
 
     React.classList.add('ProjectButtonActive');
     React.classList.remove('ProjectNotButtonActive');
@@ -34,11 +45,16 @@ React.addEventListener( 'click', () => {
     All.classList.add('ProjectNotButtonActive');
     Vanillas.classList.remove('ProjectButtonActive');
     Vanillas.classList.add('ProjectNotButtonActive');
+    Bot.classList.remove('ProjectButtonActive');
+    Bot.classList.add('ProjectNotButtonActive');
 })
 
 All.addEventListener( 'click', () => {
     ReactJs.forEach((react) => {
         react.classList.remove('hidden')
+    });
+    BotJs.forEach((bot) => {
+        bot.classList.remove('hidden')
     });
     VanillaJs.forEach( (vanilla) => {
         vanilla.classList.remove('hidden');
@@ -50,6 +66,29 @@ All.addEventListener( 'click', () => {
     All.classList.add('ProjectButtonActive');
     Vanillas.classList.remove('ProjectButtonActive');
     Vanillas.classList.add('ProjectNotButtonActive');
+    Bot.classList.remove('ProjectButtonActive');
+    Bot.classList.add('ProjectNotButtonActive');
+})
+
+Bot.addEventListener( 'click', () => {
+    ReactJs.forEach((react) => {
+        react.classList.add('hidden')
+    });
+    BotJs.forEach((bot) => {
+        bot.classList.remove('hidden')
+    });
+    VanillaJs.forEach( (vanilla) => {
+        vanilla.classList.add('hidden');
+    });
+
+    React.classList.add('ProjectNotButtonActive');
+    React.classList.remove('ProjectButtonActive');
+    All.classList.add('ProjectNotButtonActive');
+    All.classList.remove('ProjectButtonActive');
+    Vanillas.classList.remove('ProjectButtonActive');
+    Vanillas.classList.add('ProjectNotButtonActive');
+    Bot.classList.add('ProjectButtonActive');
+    Bot.classList.remove('ProjectNotButtonActive');
 })
 
 const weeveProject = document.querySelector("#weeveProject");
@@ -66,6 +105,20 @@ weeveProject.addEventListener('mouseenter', () => {
 });
 weeveProject.addEventListener('mouseleave', () => {
     weeveProject.innerHTML = ``;
+})
+
+const weatherbot = document.querySelector("#WeatherBot");
+weatherbot.addEventListener('mouseenter', () => {
+    weatherbot.innerHTML =  `<div>
+        <h1 class="texl-2xl my-1 animatecss animatecss-fast animatecss-backInUp">Client: Oyeleye Blessing</h1>
+        <p class="animatecss animatecss-fast animatecss-backInUp">
+         Weather Bot is a telegram bot that is used to get real time weather forecast for a city.
+         To query weather type <b>/city city name(e.g oyo)</b>
+        </p>      
+        </div>`;
+});
+weatherbot.addEventListener('mouseleave', () => {
+    weatherbot.innerHTML = ``;
 })
 
 const autoproctorProject = document.querySelector('#autoproctorProject');

@@ -13,7 +13,9 @@ module.exports = {
        backgroundImage: {
         'weeve': "url('../Images/WEEVE LOGO 6 ADJ 1.png')",
         'autoproctor': "url('../Images/autoproctor.svg')",
-        'vturecharge': "url('../Images/Vturecharge.png')"
+        'vturecharge': "url('../Images/Vturecharge.png')",
+        'weatherbot' : "url('../Images/telegram weather.png')"
+        
        }
     },  },
   plugins: [
