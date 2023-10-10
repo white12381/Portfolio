@@ -1362,6 +1362,10 @@ body {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-profile\/70:hover {
+  background-color: rgb(65 164 245 / 0.7);
+}
+
 .hover\:fill-gray-700\/75:hover {
   fill: rgb(55 65 81 / 0.75);
 }
