@@ -781,6 +781,30 @@ body {
   height: 18rem;
 }
 
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[420px\] {
+  height: 420px;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
+.h-\[440px\] {
+  height: 440px;
+}
+
+.h-\[460px\] {
+  height: 460px;
+}
+
 .w-6 {
   width: 1.5rem;
 }
