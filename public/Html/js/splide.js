@@ -23,20 +23,18 @@ weeveProject.addEventListener('mouseenter', () => {
 weeveProject.addEventListener('mouseleave', () => {
     weeveProject.innerHTML = ``;
 })
+ 
+const worldXplorer = document.querySelector('#worldXplorer');
 
-const autoproctorProject = document.querySelector('#autoproctorProject');
-
-autoproctorProject.addEventListener('mouseenter', () => {
-    autoproctorProject.innerHTML =  `<div>
-        <h1 class="texl-2xl my-1 animatecss animatecss-fast animatecss-backInUp">Client: AutoProctor</h1>
+worldXplorer.addEventListener('mouseenter', () => {
+    worldXplorer.innerHTML =  `<div>
+        <h1 class="texl-2xl my-1 animatecss animatecss-fast animatecss-backInUp">Client: Cybuds</h1>
         <p class="animatecss animatecss-fast animatecss-backInUp">
-            This is an examination platform in which a user can log in as admin to set question or one can login 
-            as student to answer questions.
+        WorldXplorer is proudly a unified booking platform that covers Affordable Flights, Hotels, Visa Assistance Holiday Packages, Airport Transfers, a dedicated Loyalty program and other travel essentials. 
         </p> 
     
         </div>`;
 });
-autoproctorProject.addEventListener('mouseleave', () => {
-    autoproctorProject.innerHTML = ``;
+worldXplorer.addEventListener('mouseleave', () => {
+    worldXplorer.innerHTML = ``;
 })
-
