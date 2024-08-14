@@ -952,16 +952,16 @@ body {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .place-self-center {
@@ -1029,24 +1029,24 @@ body {
   background-color: rgb(29 78 216 / 0.4);
 }
 
-.bg-weeve {
-  background-image: url('../Images/WEEVE LOGO 6 ADJ 1.png');
+.bg-worldXplorer {
+  background-image: url('../Images/worldXplorer.png');
 }
 
-.bg-autoproctor {
-  background-image: url('../Images/autoproctor.svg');
+.bg-weeve {
+  background-image: url('../Images/WEEVE LOGO 6 ADJ 1.png');
 }
 
 .bg-weatherbot {
   background-image: url('../Images/telegram weather.png');
 }
 
-.bg-vturecharge {
-  background-image: url('../Images/Vturecharge.png');
+.bg-autoproctor {
+  background-image: url('../Images/autoproctor.svg');
 }
 
-.bg-worldXplorer {
-  background-image: url('../Images/worldXplorer.png');
+.bg-vturecharge {
+  background-image: url('../Images/Vturecharge.png');
 }
 
 .fill-white {
