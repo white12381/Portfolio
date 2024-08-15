@@ -5,13 +5,13 @@ const contact = document.querySelector('#contact');
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    if(location.pathname.includes('project.html')){
+    if(location.pathname.includes('project')){
         projects.classList.add('text-white');
        }
-      else if(location.pathname.includes('resume.html')){
+      else if(location.pathname.includes('resume')){
         resume.classList.add('text-white');
        }   
-      else if(location.pathname.includes('contact.html')){
+      else if(location.pathname.includes('contact')){
         contact.classList.add('text-white');
        } 
        else{
