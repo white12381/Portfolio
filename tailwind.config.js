@@ -15,7 +15,8 @@ module.exports = {
         'autoproctor': "url('../Images/autoproctor.svg')",
         'vturecharge': "url('../Images/Vturecharge.png')",
         'weatherbot' : "url('../Images/telegram weather.png')",
-        'worldXplorer' : "url('../Images/worldXplorer.png')"
+        'worldXplorer' : "url('../Images/worldXplorer.png')",
+        'eVoting' : "url('../Images/evoting.png')"
        }
     },  },
   plugins: [

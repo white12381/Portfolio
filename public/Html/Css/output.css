@@ -964,6 +964,12 @@ body {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .place-self-center {
   place-self: center;
 }
@@ -1047,6 +1053,10 @@ body {
 
 .bg-vturecharge {
   background-image: url('../Images/Vturecharge.png');
+}
+
+.bg-eVoting {
+  background-image: url('../Images/evoting.png');
 }
 
 .fill-white {
