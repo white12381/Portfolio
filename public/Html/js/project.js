@@ -68,6 +68,10 @@ const hoverData = {
   dommyHeritage: {
     client: "D1st Class Heritage",
     description: `DomyHeritage is Nigeria's go-to platform for buying, renting, or leasing properties with verified listings, transparent pricing, and secure transactions`
+  },
+  relokonnect: {
+    client: "Relokonnect",
+    description: `Relokonnect is a digital platform connecting renters with dream homes and landlords with ideal tenants.`
   }
 }
 

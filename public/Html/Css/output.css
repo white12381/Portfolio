@@ -865,10 +865,6 @@ body {
   flex-direction: column;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
 }
@@ -1047,12 +1043,16 @@ body {
   background-image: url('../Images/WEEVE LOGO 6 ADJ 1.png');
 }
 
-.bg-autoproctor {
-  background-image: url('../Images/autoproctor.svg');
+.bg-dommyheritage {
+  background-image: url('../Images/dommyheritage.png');
 }
 
 .bg-weatherbot {
   background-image: url('../Images/telegram weather.png');
+}
+
+.bg-autoproctor {
+  background-image: url('../Images/autoproctor.svg');
 }
 
 .bg-eVoting {
@@ -1063,8 +1063,8 @@ body {
   background-image: url('../Images/Vturecharge.png');
 }
 
-.bg-dommyheritage {
-  background-image: url('../Images/dommyheritage.png');
+.bg-relokonnect {
+  background-image: url('../Images/Relokonnect.png');
 }
 
 .fill-white {

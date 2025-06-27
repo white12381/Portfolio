@@ -17,7 +17,8 @@ module.exports = {
         'weatherbot' : "url('../Images/telegram weather.png')",
         'worldXplorer' : "url('../Images/worldXplorer.png')",
         'eVoting' : "url('../Images/evoting.png')",
-        'dommyheritage' : "url('../Images/dommyheritage.png')"
+        'dommyheritage' : "url('../Images/dommyheritage.png')",
+        'relokonnect' : "url('../Images/Relokonnect.png')"
 
        }
     },  },
