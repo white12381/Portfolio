@@ -8,7 +8,8 @@ const buttonMap = {
   Vanillas: 'VanillaJs',
   React: 'ReactJs',
   Bot: 'BotJs',
-  All: 'All'
+  All: 'All',
+  Nextjs: 'Nextjs'
 };
 
 // === Toggle Project Visibility ===
@@ -63,8 +64,12 @@ const hoverData = {
   evotingProject: {
     client: "Inside Success",
     description: 'A voting platform where use can create voting rooms and share with their colleague to vote'
+  },
+  dommyHeritage: {
+    client: "D1st Class Heritage",
+    description: `DomyHeritage is Nigeria's go-to platform for buying, renting, or leasing properties with verified listings, transparent pricing, and secure transactions`
   }
-};
+}
 
 for (let id in hoverData) {
   const el = document.querySelector(`#${id}`);

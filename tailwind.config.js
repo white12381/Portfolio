@@ -16,7 +16,9 @@ module.exports = {
         'vturecharge': "url('../Images/Vturecharge.png')",
         'weatherbot' : "url('../Images/telegram weather.png')",
         'worldXplorer' : "url('../Images/worldXplorer.png')",
-        'eVoting' : "url('../Images/evoting.png')"
+        'eVoting' : "url('../Images/evoting.png')",
+        'dommyheritage' : "url('../Images/dommyheritage.png')"
+
        }
     },  },
   plugins: [
