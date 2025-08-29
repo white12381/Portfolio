@@ -2,14 +2,15 @@ const buttons = document.querySelectorAll('.ProjectFilterBtn');
 const categories = {
   ReactJs: document.querySelectorAll('#ReactJs'),
   VanillaJs: document.querySelectorAll('#VanillaJs'),
-  BotJs: document.querySelectorAll('#BotJs')
+  BotJs: document.querySelectorAll('#BotJs'),
+  Nextjs: document.querySelectorAll('#Nextjs')
 };
 const buttonMap = {
   Vanillas: 'VanillaJs',
   React: 'ReactJs',
   Bot: 'BotJs',
   All: 'All',
-  Nextjs: 'Nextjs'
+  Next: 'Nextjs'
 };
 
 // === Toggle Project Visibility ===
