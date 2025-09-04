@@ -1,40 +1,39 @@
-document.addEventListener( 'DOMContentLoaded', function () {
-    new Splide( '.splide',{
+document.addEventListener('DOMContentLoaded', function () {
+    new Splide('.splide', {
         perPage: 1,
         drag: 'free',
         rewind: true,
-        type:'loop',
-        rewindByDrag: true, 
-    } ).mount();
-} );
+        type: 'loop',
+        rewindByDrag: true,
+    }).mount();
+});
 
-const weeveProject = document.querySelector("#weeveProject");
-weeveProject.addEventListener('mouseenter', () => {
-    weeveProject.innerHTML =  `<div>
-        <h1 class="texl-2xl my-1 animatecss animatecss-fast animatecss-backInUp">Client: WEEVE</h1>
+const relokonnect = document.querySelector("#relokonnect");
+relokonnect.addEventListener('mouseenter', () => {
+    relokonnect.innerHTML = `<div>
+        <h1 class="texl-2xl my-1 animatecss animatecss-fast animatecss-backInUp">Client: Relokonnect</h1>
         <p class="animatecss animatecss-fast animatecss-backInUp">
-           White Electrical and Electronics Ventures known as WEEVE is an
-           independent company whose main objective is to offer
-           world class goods and services in Electrical and Electronics 
+        Relokonnect is a digital platform connecting renters with dream homes and landlords with ideal tenants. 
         </p> 
     
         </div>`;
 });
-weeveProject.addEventListener('mouseleave', () => {
-    weeveProject.innerHTML = ``;
+relokonnect.addEventListener('mouseleave', () => {
+    relokonnect.innerHTML = ``;
 })
- 
-const worldXplorer = document.querySelector('#worldXplorer');
 
-worldXplorer.addEventListener('mouseenter', () => {
-    worldXplorer.innerHTML =  `<div>
-        <h1 class="texl-2xl my-1 animatecss animatecss-fast animatecss-backInUp">Client: Cybuds</h1>
+
+const vturecharge = document.querySelector('#vturechargeProject');
+
+vturecharge.addEventListener('mouseenter', () => {
+    vturecharge.innerHTML = `<div>
+        <h1 class="texl-2xl my-1 animatecss animatecss-fast animatecss-backInUp">Client: VtuRecharge</h1>
         <p class="animatecss animatecss-fast animatecss-backInUp">
-        WorldXplorer is proudly a unified booking platform that covers Affordable Flights, Hotels, Visa Assistance Holiday Packages, Airport Transfers, a dedicated Loyalty program and other travel essentials. 
+        This is a Vtu platform where clients can purchase data, airtime and utillity payments such as gotv, dstv and others
         </p> 
     
         </div>`;
 });
-worldXplorer.addEventListener('mouseleave', () => {
-    worldXplorer.innerHTML = ``;
+vturecharge.addEventListener('mouseleave', () => {
+    vturecharge.innerHTML = ``;
 })

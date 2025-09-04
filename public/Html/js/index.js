@@ -67,18 +67,4 @@ else{
 window.location.href = link;
 
     }
-}
-// const worldXplorer = document.querySelector('#worldXplorer');
-
-// worldXplorer.addEventListener('mouseenter', () => {
-//     worldXplorer.innerHTML =  `<div>
-//         <h1 class="texl-2xl my-1 animatecss animatecss-fast animatecss-backInUp">Client: Cybuds</h1>
-//         <p class="animatecss animatecss-fast animatecss-backInUp">
-//         WorldXplorer is proudly a unified booking platform that covers Affordable Flights, Hotels, Visa Assistance Holiday Packages, Airport Transfers, a dedicated Loyalty program and other travel essentials. 
-//         </p> 
-    
-//         </div>`;
-// });
-// worldXplorer.addEventListener('mouseleave', () => {
-//     worldXplorer.innerHTML = ``;
-// })
+} 
