@@ -58,18 +58,18 @@ const hoverData = {
     client: 'VtuRecharge',
     description: 'A VTU platform to buy data, airtime, and utility services like GOTV, DSTV, etc.'
   },
-  worldXplorer: {
-    client: 'Cybuds',
-    description: 'A unified travel booking platform for Flights, Hotels, Visa, Holidays, Loyalty, and more.'
-  },
+  // worldXplorer: {
+  //   client: 'Cybuds',
+  //   description: 'A unified travel booking platform for Flights, Hotels, Visa, Holidays, Loyalty, and more.'
+  // },
   evotingProject: {
     client: "Inside Success",
     description: 'A voting platform where use can create voting rooms and share with their colleague to vote'
   },
-  dommyHeritage: {
-    client: "D1st Class Heritage",
-    description: `DomyHeritage is Nigeria's go-to platform for buying, renting, or leasing properties with verified listings, transparent pricing, and secure transactions`
-  },
+  // dommyHeritage: {
+  //   client: "D1st Class Heritage",
+  //   description: `DomyHeritage is Nigeria's go-to platform for buying, renting, or leasing properties with verified listings, transparent pricing, and secure transactions`
+  // },
   relokonnect: {
     client: "Relokonnect",
     description: `Relokonnect is a digital platform connecting renters with dream homes and landlords with ideal tenants.`
