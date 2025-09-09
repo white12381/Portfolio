@@ -66,6 +66,18 @@ const hoverData = {
     client: "Inside Success",
     description: 'A voting platform where use can create voting rooms and share with their colleague to vote'
   },
+  eps: {
+    client: "NLPC PFA",
+    description: "A unified ERP/CRM solution that streamlines customer relations, benefits applications, employer and custodian management, case workflows, and lots more. "
+  },
+  portal: {
+    client: "NLPC PFA",
+    description: "A unified enterprise platform combining financial management, payroll automation, HR services, cooperative management, loan processing, and lots more."
+  },
+  pexialDigitalSolution: {
+    client: "Pexial Digital Solution",
+    description: "A modern portfolio website for Pexial Digital Solutions, showcasing digital services with a sleek and responsive design."
+  },
   // dommyHeritage: {
   //   client: "D1st Class Heritage",
   //   description: `DomyHeritage is Nigeria's go-to platform for buying, renting, or leasing properties with verified listings, transparent pricing, and secure transactions`

@@ -18,7 +18,10 @@ module.exports = {
         'worldXplorer' : "url('../Images/worldXplorer.png')",
         'eVoting' : "url('../Images/evoting.png')",
         'dommyheritage' : "url('../Images/dommyheritage.png')",
-        'relokonnect' : "url('../Images/Relokonnect.png')"
+        'relokonnect' : "url('../Images/Relokonnect.png')",
+        "eps+": "url('../Images/EPS+.png')",
+        "portal": "url('../Images/portal.png')",
+        "pexialDigitalSolution": "url('../Images/Pexial-digital-solution.jpg')",
 
        }
     },  },
