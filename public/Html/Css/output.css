@@ -794,6 +794,14 @@ body {
   height: 18rem;
 }
 
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[560px\] {
+  height: 560px;
+}
+
 .w-6 {
   width: 1.5rem;
 }
