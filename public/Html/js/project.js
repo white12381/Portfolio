@@ -3,14 +3,18 @@ const categories = {
   ReactJs: document.querySelectorAll('#ReactJs'),
   VanillaJs: document.querySelectorAll('#VanillaJs'),
   BotJs: document.querySelectorAll('#BotJs'),
-  Nextjs: document.querySelectorAll('#Nextjs')
+  Nextjs: document.querySelectorAll('#Nextjs'),
+ ReactNativejs: document.querySelectorAll('#ReactNativejs'),
+ Electronjs: document.querySelectorAll('#Electronjs')
 };
 const buttonMap = {
   Vanillas: 'VanillaJs',
   React: 'ReactJs',
   Bot: 'BotJs',
   All: 'All',
-  Next: 'Nextjs'
+  Next: 'Nextjs',
+  ReactNative: 'ReactNativejs',
+  Electron: 'Electronjs'
 };
 
 // === Toggle Project Visibility ===
@@ -58,6 +62,10 @@ const hoverData = {
     client: 'VtuRecharge',
     description: 'A VTU platform to buy data, airtime, and utility services like GOTV, DSTV, etc.'
   },
+  chargingAppProject: {
+    client: 'Weeve',
+    description: 'A React Native app that monitors battery level and status in real-time, using background tasks to update a backend API, with a clean and intuitive UI.'
+  },
   // worldXplorer: {
   //   client: 'Cybuds',
   //   description: 'A unified travel booking platform for Flights, Hotels, Visa, Holidays, Loyalty, and more.'
@@ -77,6 +85,14 @@ const hoverData = {
   pexialDigitalSolution: {
     client: "Pexial Digital Solution",
     description: "A modern portfolio website for Pexial Digital Solutions, showcasing digital services with a sleek and responsive design."
+  },
+  chargingAppProjectDesktop: {
+client: "Weeve",
+description: "A desktop application for managing customer devices under charging. It includes device registration and comprehensive management of all customer device operations."
+  },
+  chargingWebsiteProject: {
+client: "Weeve",
+description: "A website for users to track their devices’ charging status and battery percentage in real-time."
   },
   // dommyHeritage: {
   //   client: "D1st Class Heritage",

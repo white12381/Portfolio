@@ -762,8 +762,8 @@ body {
   height: 100%;
 }
 
-.h-\[460px\] {
-  height: 460px;
+.h-\[560px\] {
+  height: 560px;
 }
 
 .h-20 {
@@ -792,14 +792,6 @@ body {
 
 .h-72 {
   height: 18rem;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
-.h-\[560px\] {
-  height: 560px;
 }
 
 .w-6 {
@@ -878,6 +870,14 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -900,6 +900,10 @@ body {
 
 .gap-16 {
   gap: 4rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-x-4 {
@@ -1493,6 +1497,10 @@ body {
     display: block;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -1530,12 +1538,20 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
 
   .md\:justify-end {
     justify-content: flex-end;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
