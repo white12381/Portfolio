@@ -4,8 +4,8 @@ const categories = {
   VanillaJs: document.querySelectorAll('#VanillaJs'),
   BotJs: document.querySelectorAll('#BotJs'),
   Nextjs: document.querySelectorAll('#Nextjs'),
- ReactNativejs: document.querySelectorAll('#ReactNativejs'),
- Electronjs: document.querySelectorAll('#Electronjs')
+  ReactNativejs: document.querySelectorAll('#ReactNativejs'),
+  Electronjs: document.querySelectorAll('#Electronjs')
 };
 const buttonMap = {
   Vanillas: 'VanillaJs',
@@ -66,10 +66,14 @@ const hoverData = {
     client: 'Weeve',
     description: 'A React Native app that monitors battery level and status in real-time, using background tasks to update a backend API, with a clean and intuitive UI.'
   },
-  // worldXplorer: {
-  //   client: 'Cybuds',
-  //   description: 'A unified travel booking platform for Flights, Hotels, Visa, Holidays, Loyalty, and more.'
-  // },
+  worldXplorer: {
+    client: 'Cybuds',
+    description: 'A unified travel booking platform for Flights, Hotels, Visa, Holidays, Loyalty, and more.'
+  },
+  quickVtu: {
+    client: 'Quick VTU',
+    description: 'A mobile VTU app for seamless purchase of data, airtime, and utility payments with referral bonuses.'
+  },
   evotingProject: {
     client: "Inside Success",
     description: 'A voting platform where use can create voting rooms and share with their colleague to vote'
@@ -87,17 +91,17 @@ const hoverData = {
     description: "A modern portfolio website for Pexial Digital Solutions, showcasing digital services with a sleek and responsive design."
   },
   chargingAppProjectDesktop: {
-client: "Weeve",
-description: "A desktop application for managing customer devices under charging. It includes device registration and comprehensive management of all customer device operations."
+    client: "Weeve",
+    description: "A desktop application for managing customer devices under charging. It includes device registration and comprehensive management of all customer device operations."
   },
   chargingWebsiteProject: {
-client: "Weeve",
-description: "A website for users to track their devices’ charging status and battery percentage in real-time."
+    client: "Weeve",
+    description: "A website for users to track their devices’ charging status and battery percentage in real-time."
   },
-  // dommyHeritage: {
-  //   client: "D1st Class Heritage",
-  //   description: `DomyHeritage is Nigeria's go-to platform for buying, renting, or leasing properties with verified listings, transparent pricing, and secure transactions`
-  // },
+  dommyHeritage: {
+    client: "D1st Class Heritage",
+    description: `DomyHeritage is Nigeria's go-to platform for buying, renting, or leasing properties with verified listings, transparent pricing, and secure transactions`
+  },
   relokonnect: {
     client: "Relokonnect",
     description: `Relokonnect is a digital platform connecting renters with dream homes and landlords with ideal tenants.`

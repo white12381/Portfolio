@@ -870,10 +870,6 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -900,10 +896,6 @@ body {
 
 .gap-16 {
   gap: 4rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .gap-x-4 {
@@ -1102,6 +1094,26 @@ body {
 
 .bg-worldXplorer {
   background-image: url('../Images/worldXplorer.png');
+}
+
+.bg-quickVtu {
+  background-image: url('../Images/quickVtu.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.\!bg-cover {
+  background-size: cover !important;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.\!bg-contain {
+  background-size: contain !important;
 }
 
 .fill-white {
@@ -1497,10 +1509,6 @@ body {
     display: block;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:hidden {
     display: none;
   }
@@ -1534,12 +1542,12 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row {

@@ -22,7 +22,7 @@ module.exports = {
         "eps+": "url('../Images/EPS+.png')",
         "portal": "url('../Images/portal.png')",
         "pexialDigitalSolution": "url('../Images/Pexial-digital-solution.jpg')",
-
+"quickVtu": "url('../Images/quickVtu.jpg')"
        }
     },  },
   plugins: [
