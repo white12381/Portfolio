@@ -794,6 +794,14 @@ body {
   height: 18rem;
 }
 
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -1092,24 +1100,12 @@ body {
   background-image: url('../Images/Pexial-digital-solution.jpg');
 }
 
-.bg-worldXplorer {
-  background-image: url('../Images/worldXplorer.png');
-}
-
 .bg-quickVtu {
   background-image: url('../Images/quickVtu.jpg');
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
-.\!bg-cover {
-  background-size: cover !important;
-}
-
-.bg-contain {
-  background-size: contain;
+.bg-worldXplorer {
+  background-image: url('../Images/worldXplorer.png');
 }
 
 .\!bg-contain {
